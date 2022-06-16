@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+.name {
+    color: #cd9559e8 ;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+.disclaimer{
+    display:none !important;
+}
+.img-wid{
+    width: 50px;
+    cursor: grabbing;
+}C
+#hov:hover{
+        cursor: crosshair;
+}
+td {
+    text-transform: uppercase !important;
+}
+#pp{
+    display: none;
+}
+.popup{
+    width: 550px;
+    height: 350px;
+    position: fixed;
+    top: 25%;
+    right: 30%;
+    background: #dad9d9;
+    z-index: 9999999 !important;
+    border-radius: 10px;
+}
+.pop-img {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    width: 295px;
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.close{
+    width: 50px;
+    height: 50px;
+    background-image: url("./cancel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 10px 10px;
+}
+.close:hover{
+    cursor: url('./meh.png'), auto;
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 767px){
+    .popup {
+        width: 340px !important;
+        right: 10% !important;
+        height: 300px !important;
+        top: 30% !important;
+    }
+    .pop-img{
+        top: 17% !important;
+        left: 20% !important;
+        width: 210px !important;
+        height: 212px !important;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .popup {
+        right: 15% !important;
+    }
+  }
